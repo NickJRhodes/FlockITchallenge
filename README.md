@@ -1,6 +1,6 @@
 # Aclaraciones
 
-Para levantar el proyecto, se puede utilizar: mvn spring-boot:run
+Para levantar el proyecto, se puede utilizar: mvn spring-boot:run o el Boot Dashboard (plugin de Spring)
   - Proyecto Maven
   - Se ultiliza Spring Boot 2.5.2 como framework de base
   - No se utiliza una capa de persistencia ni DTO
@@ -10,7 +10,7 @@ Para levantar el proyecto, se puede utilizar: mvn spring-boot:run
 
 # Login
 
-  El procedimiento de login del usuario no es un proceso de autenticción real. No se manejan sesiones, tokens, cifrado, base de datos ni nada por el estilo. Simplemente se valida que el valor de los atributos username y password, que viajan dentro del cuerpo de la solicitud, sean iguales a los que encontramos dentro del archivo application.properties (claves user.username y user.password respectivamente).\n
+  El procedimiento de login del usuario no es un proceso de autenticción real. No se manejan sesiones, tokens, cifrado, base de datos ni nada por el estilo. Simplemente se valida que el valor de los atributos username y password, que viajan dentro del cuerpo de la solicitud, sean iguales a los que encontramos dentro del archivo application.properties (claves user.username y user.password respectivamente).\
   Endpoint - POST: http://localhost:8080/login
   
 # Longitud y latitud
