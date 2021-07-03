@@ -15,17 +15,17 @@ Para levantar el proyecto, se puede utilizar: mvn spring-boot:run o el Boot Dash
   
 # Longitud y latitud
 
-  Este endpoint nos sirve de "pasa manos" con una API pública que es la que realmente hace la "magia". Recibe como parámetro el nombre de una provincia Argentina y devuelve las coordenadas geográficas latitud y longitud.
+  Este endpoint nos sirve de "pasa manos" con una API pública que es la que realmente hace la "magia". Recibe como parámetro el nombre de una provincia Argentina y devuelve las coordenadas geográficas latitud y longitud.\
   Endpoint - GET: http://localhost:8080/coordinates/{province}
   
 # Logs
 
-  Para el manejo de logs, se utiliza Logback, framwork de logs predeterminado en Spring Boot. 
+  Para el manejo de logs, se utiliza Logback, framwork de logs predeterminado en Spring Boot.\
   Como se solicita en el requerimiento de este proyecto, es necesario almacenar los logs en un archivo o en una base de datos. Se optó por la primera opción, por lo tanto, podemos encontrar el archivo de logs en {DIRECTORIO_RAIZ}/challenge/logs/.
   
 # Documentación de APIs
 
-  Para la documentación automática de APIs, se utiliza OpenAPI 3.
+  Para la documentación automática de APIs, se utiliza OpenAPI 3.\
   Para visualizar el documento de especificación de las apis de este proyecto en formato JSON, se puede acceder a esta url: http://localhost:8080/v3/api-docs/
   Para tener una interfáz gráfica de dicha documentación y, además, tener una herramienta de interacción con nuestros endpoints, se puede acceder a: http://localhost:8080/swagger-ui.html
   
